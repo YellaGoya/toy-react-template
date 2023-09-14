@@ -5,7 +5,7 @@ const FontWaveAnime = keyframes`
         font-weight: 45;
     }
     50% {
-        font-weight: 200;
+        font-weight: 930;
     }
     100% {
         font-weight: 45;

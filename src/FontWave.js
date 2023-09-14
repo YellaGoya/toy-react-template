@@ -14,5 +14,5 @@ const FontWaveAnime = keyframes`
 
 export const FontWave = styled.span`
     font-size: 150px;
-    animation: ${FontWaveAnime} 4s infinite both;
+    animation: ${FontWaveAnime} 5s infinite both;
 `;

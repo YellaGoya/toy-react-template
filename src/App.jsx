@@ -18,8 +18,8 @@ function App() {
             <b.App>
                 <b.AppHeader>
                     <b.AppLogo src={logo} className="App-logo" alt="logo" />
-                    <f.FontWave id="test">Please</f.FontWave>
-                    + ESLint : XO
+                    <f.FontWave id="test">YellaGoya</f.FontWave>
+                    <br />+ ESLint : XO
                     <br />+ Prettier hello
                     <br />+ Styled Component
                 </b.AppHeader>

@@ -1,18 +1,29 @@
 import logo from "./logo.svg";
-import * as s from "./Style";
+import * as b from "./Base";
+import * as f from "./FontWave";
+
+// SetInterval(() => {
+//     document.getElementById("test").style.fontWeight = 100;
+//     document.getElementById("test").style.fontWeight = 200;
+//     document.getElementById("test").style.fontWeight = 300;
+//     document.getElementById("test").style.fontWeight = 400;
+//     document.getElementById("test").style.fontWeight = 500;
+//     document.getElementById("test").style.fontWeight = 600;
+//     document.getElementById("test").style.fontWeight = 700;
+// }, 1000);
 
 function App() {
     return (
         <>
-            <s.App>
-                <s.AppHeader>
-                    <s.AppLogo src={logo} className="App-logo" alt="logo" />
-                    <p>template for roscoe</p>
+            <b.App>
+                <b.AppHeader>
+                    <b.AppLogo src={logo} className="App-logo" alt="logo" />
+                    <f.FontWave id="test">Please</f.FontWave>
                     + ESLint : XO
                     <br />+ Prettier hello
                     <br />+ Styled Component
-                </s.AppHeader>
-            </s.App>
+                </b.AppHeader>
+            </b.App>
         </>
     );
 }

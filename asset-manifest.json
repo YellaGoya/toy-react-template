@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/toy-react-template/static/js/main.02c760d8.js",
+    "main.js": "/toy-react-template/static/js/main.3410e9d2.js",
+    "static/media/PretendardVariable.ttf": "/toy-react-template/static/media/PretendardVariable.4ab1a55a486870ed0174.ttf",
     "static/media/logo.svg": "/toy-react-template/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/toy-react-template/index.html",
-    "main.02c760d8.js.map": "/toy-react-template/static/js/main.02c760d8.js.map"
+    "main.3410e9d2.js.map": "/toy-react-template/static/js/main.3410e9d2.js.map"
   },
   "entrypoints": [
-    "static/js/main.02c760d8.js"
+    "static/js/main.3410e9d2.js"
   ]
 }

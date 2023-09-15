@@ -14,7 +14,5 @@ const FontWaveAnime = keyframes`
 
 export const FontWave = styled.span`
     font-size: 150px;
-    will-change: font-weight;
     animation: ${FontWaveAnime} 5s infinite both;
-    transition: font-variation-settings 3s;
 `;

@@ -1,12 +1,12 @@
 import { styled, keyframes, createGlobalStyle } from "styled-components";
-import PrVr from "./assets/fonts/PretendardVariable.woff2";
+import PrVr from "./assets/fonts/PretendardVariable.ttf";
 
 const GlobalStyle = createGlobalStyle`
     @font-face {
         font-family: 'PrVr';
         src: local('PrVr'), local('PrVr');
         font-style: normal;
-        src: url(${PrVr}) format('woff2-variations');
+        src: url(${PrVr}) format('truetype');
     }
 
     body {
